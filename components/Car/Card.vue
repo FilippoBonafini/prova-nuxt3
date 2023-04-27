@@ -1,5 +1,11 @@
+<script setup>
+const handleDetails = () => {
+    navigateTo(`/car/prova-1`);
+}
+</script>
+
 <template>
-    <div class="shadow border w-full overflow-hidden mb-5 cursor-pointer h-[200px]">
+    <div class="shadow border w-full overflow-hidden mb-5 cursor-pointer h-[200px]" @click="handleDetails">
         <div class="flex h-full">
             <img src="https://carwow-uk-wp-3.imgix.net/Volvo-XC40-white-scaled.jpg" alt="" class="w-[300px] h-full" />
             <div class="p-4 flex flex-col">
